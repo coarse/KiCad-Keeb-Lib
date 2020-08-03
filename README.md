@@ -26,3 +26,7 @@ KiCad libraries of commonly used parts for keyboard PCBs
 ## Contributing
 
 Feel free to add more footprint/symbol libraries via pull requests. I will manually check all changes so it might take some time to get them merged.
+
+## Credits
+
+- https://github.com/ai03-2725 (Type C symbol, footprints, keyboard switch footprints)
