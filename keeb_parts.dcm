@@ -36,6 +36,12 @@ K diode
 F ~
 $ENDCMP
 #
+$CMP D_TVS
+D Bidirectional transient-voltage-suppression diode
+K diode TVS thyrector
+F ~
+$ENDCMP
+#
 $CMP MountingHole
 D Mounting Hole without connection
 K mounting hole
