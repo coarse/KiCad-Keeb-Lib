@@ -1,0 +1,55 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +3V3
+D Power symbol creates a global label with name "+3V3"
+K power-flag
+$ENDCMP
+#
+$CMP +5V
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
+$CMP +BATT
+D Power symbol creates a global label with name "+BATT"
+K power-flag battery
+$ENDCMP
+#
+$CMP -BATT
+D Power symbol creates a global label with name "-BATT"
+K power-flag battery
+$ENDCMP
+#
+$CMP Battery_Cell
+D Single-cell battery
+K battery cell
+F ~
+$ENDCMP
+#
+$CMP Earth
+D Power symbol creates a global label with name "Earth"
+K power-flag ground gnd
+F ~
+$ENDCMP
+#
+$CMP GND
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
+$CMP TP4054
+D Standalone Linear Li-lon Battery Charger with Thermal
+K battery charger
+$ENDCMP
+#
+$CMP TP4056
+D Standalone Linear Li-lon Battery Charger with Thermal
+K battery charger
+$ENDCMP
+#
+$CMP VBUS
+D Power symbol creates a global label with name "VBUS"
+K power-flag
+$ENDCMP
+#
+#End Doc Library

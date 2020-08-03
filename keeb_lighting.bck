@@ -1,0 +1,26 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LED_Small
+D Light emitting diode, small symbol
+K LED diode light-emitting-diode
+F ~
+$ENDCMP
+#
+$CMP SK6812MINI
+D RGB LED with integrated controller
+K RGB LED NeoPixel Mini addressable
+F https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
+$ENDCMP
+#
+$CMP SK6812MINI-E
+D RGB LED with integrated controller
+K RGB LED NeoPixel addressable
+$ENDCMP
+#
+$CMP WS2812B
+D RGB LED with integrated controller
+K RGB LED NeoPixel addressable
+F https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+$ENDCMP
+#
+#End Doc Library
