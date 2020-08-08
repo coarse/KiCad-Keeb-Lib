@@ -1,3 +1,50 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1N4148
+D 100V 0.15A standard switching diode, DO-35
+K diode
+F https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf
+$ENDCMP
+#
+$CMP AO3400
+D N-channel MOSFET, SOT-23
+K N-Channel MOSFET
+F https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3400A_C20917.pdf
+$ENDCMP
+#
+$CMP AO3416
+D N-channel MOSFET, SOT-23, ESD Protected
+K N-Channel MOSFET
+F http://www.aosmd.com/pdfs/datasheet/ao3416.pdf
+$ENDCMP
+#
+$CMP BAT54C
+D dual schottky barrier diode, common cathode
+K schottky diode common cathode
+F http://www.diodes.com/_files/datasheets/ds11005.pdf
+$ENDCMP
+#
+$CMP BAV70
+D Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23
+K diode
+F https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf
+$ENDCMP
+#
+$CMP DTC123J
+D Digital NPN Transistor, 2k2/47k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP SRV05-4
+D ESD Protection Diodes with Low Clamping Voltage, SOT-23-6
+K ESD protection diodes
+F http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF
+$ENDCMP
+#
+$CMP USBLC6-2SC6
+D Bidirectional ESD Protection Diode, SOT-23-6
+K usb ethernet
+F http://www2.st.com/resource/en/datasheet/CD00050750.pdf
+$ENDCMP
+#
 #End Doc Library
