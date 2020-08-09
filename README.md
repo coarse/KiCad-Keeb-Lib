@@ -20,7 +20,7 @@ KiCad libraries of commonly used parts for keyboard PCBs
 ## Instructions
 
 - Clone the repository to your computer on any folder
-- Setup a new KiCad path (`Preferences > Configure Paths`) named `GIT_KB_LIBRARY` pointing to the cloned repository
+- Setup a new KiCad path (`Preferences > Configure Paths`) named `GIT_KB_LIBRARY` pointing to the directory containing the cloned repository
 - Import the libraries/symbols into your project
 
 ## Contributing
