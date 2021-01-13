@@ -1,0 +1,10 @@
+(module US_#5_Oval (layer F.Cu) (tedit 5F389900)
+  (descr "1/8 in. screw circular mounting hole")
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value US_#5_Oval (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole oval (at 0 0) (size 8 8) (drill oval 6 3.454) (layers *.Cu *.Mask))
+)

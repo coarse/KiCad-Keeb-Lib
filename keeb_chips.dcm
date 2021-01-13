@@ -6,6 +6,12 @@ K diode
 F https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf
 $ENDCMP
 #
+$CMP 2N7002
+D N-channel MOSFET, SOT-23
+K N-Channel MOSFET
+F https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3400A_C20917.pdf
+$ENDCMP
+#
 $CMP AO3400
 D N-channel MOSFET, SOT-23
 K N-Channel MOSFET

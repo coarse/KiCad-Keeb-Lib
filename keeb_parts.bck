@@ -1,9 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 1N4148
-D 100V 0.15A standard switching diode, DO-35
+$CMP BAS16TW
+D Fast switching diode array 3 independent
 K diode
-F https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf
+F http://www.diodes.com/datasheets/ds30154.pdf
 $ENDCMP
 #
 $CMP CP1_Small
@@ -24,6 +24,12 @@ K quartz ceramic resonator oscillator
 F ~
 $ENDCMP
 #
+$CMP Crystal_GND2_Small
+D Three pin crystal, GND on pin 2, small symbol
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
 $CMP Crystal_Small
 D Two pin crystal, small symbol
 K quartz ceramic resonator oscillator
@@ -40,6 +46,18 @@ $CMP D_Small
 D Diode, small symbol
 K diode
 F ~
+$ENDCMP
+#
+$CMP D_TVS
+D Bidirectional transient-voltage-suppression diode
+K diode TVS thyrector
+F ~
+$ENDCMP
+#
+$CMP MMBD4148TW
+D Fast switching diode array 3 independent
+K diode
+F http://www.diodes.com/datasheets/ds30154.pdf
 $ENDCMP
 #
 $CMP MountingHole
@@ -69,6 +87,12 @@ $ENDCMP
 $CMP Rotary_Encoder_Switch
 D Rotary encoder, dual channel, incremental quadrate outputs, with switch
 K rotary switch encoder switch push button
+F ~
+$ENDCMP
+#
+$CMP SW_Push
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
 F ~
 $ENDCMP
 #

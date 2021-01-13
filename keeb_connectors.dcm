@@ -48,6 +48,12 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP Conn_01x08
+D Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP Conn_ARM_JTAG_SWD_10
 D Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface
 K Cortex Debug Connector ARM SWD JTAG

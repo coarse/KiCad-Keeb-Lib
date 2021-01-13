@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BAS16TW
+D Fast switching diode array 3 independent
+K diode
+F http://www.diodes.com/datasheets/ds30154.pdf
+$ENDCMP
+#
 $CMP CP1_Small
 D Polarized capacitor, small US symbol
 K cap capacitor
@@ -14,6 +20,12 @@ $ENDCMP
 #
 $CMP Crystal_GND24_Small
 D Four pin crystal, GND on pins 2 and 4, small symbol
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
+$CMP Crystal_GND2_Small
+D Three pin crystal, GND on pin 2, small symbol
 K quartz ceramic resonator oscillator
 F ~
 $ENDCMP
@@ -40,6 +52,12 @@ $CMP D_TVS
 D Bidirectional transient-voltage-suppression diode
 K diode TVS thyrector
 F ~
+$ENDCMP
+#
+$CMP MMBD4148TW
+D Fast switching diode array 3 independent
+K diode
+F http://www.diodes.com/datasheets/ds30154.pdf
 $ENDCMP
 #
 $CMP MountingHole
@@ -69,6 +87,12 @@ $ENDCMP
 $CMP Rotary_Encoder_Switch
 D Rotary encoder, dual channel, incremental quadrate outputs, with switch
 K rotary switch encoder switch push button
+F ~
+$ENDCMP
+#
+$CMP SW_Push
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
 F ~
 $ENDCMP
 #
